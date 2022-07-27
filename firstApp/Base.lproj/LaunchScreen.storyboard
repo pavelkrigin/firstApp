@@ -14,28 +14,7 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jt3-V3-7c3">
-                                <rect key="frame" x="28" y="77" width="359" height="339"/>
-                                <color key="backgroundColor" red="0.86078917980194092" green="0.31188824280693589" blue="0.66449444859278484" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hf4-KZ-O2v">
-                                <rect key="frame" x="28" y="489" width="359" height="339"/>
-                                <color key="backgroundColor" red="0.091185094376823358" green="0.86078917980194092" blue="0.42899813754654537" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <constraints>
-                            <constraint firstItem="Jt3-V3-7c3" firstAttribute="width" secondItem="hf4-KZ-O2v" secondAttribute="width" id="CQO-a3-gfC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hf4-KZ-O2v" secondAttribute="bottom" constant="34" id="Lrn-E5-3bp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hf4-KZ-O2v" secondAttribute="trailing" constant="27" id="aMR-4v-duy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jt3-V3-7c3" secondAttribute="trailing" constant="27" id="cFZ-fm-59t"/>
-                            <constraint firstItem="hf4-KZ-O2v" firstAttribute="height" secondItem="Jt3-V3-7c3" secondAttribute="height" id="cYs-7k-4PF"/>
-                            <constraint firstItem="Jt3-V3-7c3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="eIU-qb-U2g"/>
-                            <constraint firstItem="hf4-KZ-O2v" firstAttribute="top" secondItem="Jt3-V3-7c3" secondAttribute="bottom" constant="73" id="mJ7-lW-Aao"/>
-                            <constraint firstItem="Jt3-V3-7c3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="tQn-Ba-MZ6"/>
-                            <constraint firstItem="hf4-KZ-O2v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="tfx-6q-H1b"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
